@@ -1,0 +1,74 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #e8f0fe;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #fff;
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0,0,0,.25);
+  text-align: center;
+}
+
+canvas {
+  background: #aad751;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background: #1a73e8;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.leaderboard {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden { display: none; }
+
+.panel, .msg {
+  background: #fff;
+  padding: 20px;
+  border-radius: 18px;
+  width: 260px;
+}
+
+.panel label {
+  display: block;
+  margin: 10px 0;
+}
+
+.panel-actions {
+  display: flex;
+  justify-content: space-between;
+}
